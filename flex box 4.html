@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .flex-main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        border: 2px solid black;
+        height: 1000px;
+        width:1000px;
+        margin :40px;
+        padding:10px;
+
+    }
+    .flex-item1{
+        border: 2px solid black;
+        height: 50px;
+        width: 450px;
+        margin:20px;
+        background-color:skyblue;
+
+
+    }
+    .flex-item2{
+        border: 2px solid black;
+        height: 50px;
+        width: 450px;
+        margin:20px;
+        background-color:red;
+        
+
+    }
+    .flex-item3{
+        border: 2px solid black;
+        height: 50px;
+        width: 450px;
+        margin:20px;
+        background-color:yellow;
+        
+
+    }
+    .flex-item4{
+        border: 2px solid black;
+        height: 50px;
+        width: 450px;
+        margin:20px;
+        background-color:green;
+        
+
+    }
+    .flex-item5{
+        border: 2px solid black;
+        height: 50px;
+        width: 450px;
+        margin:20px;
+        background-color:pink;
+        
+
+    }
+</style>
+<body>
+
+    <div class="flex-main-container" id="main">
+      <div class="flex-item1" id="a"></div>
+      <div class="flex-item2" id="b"></div>
+      <div class="flex-item3" id="c"></div>
+      <div class="flex-item4" id="d"></div>
+      <div class="flex-item5 "id="e"></div>
+      <h1 id="heading"></h1>
+    
+</div>
+<script>
+    let h1=document.getElementById("heading");
+    let a=document.getElementById("a");
+    let b=document.getElementById("b");
+    let c=document.getElementById("c");
+    let d=document.getElementById("d");
+    let e=document.getElementById("e");
+    
+    a.style.backgroundColor="red";
+    b.innerHTML="This is the div 2";
+    b.style.width="100px";
+    h1.innerHTML="Flex Box"
+
+
+</script>
+
+</body>
+</html>
